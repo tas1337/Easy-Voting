@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GGDA Voting</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <form action="/vote" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+    
+    <input type="radio" id="choice1" name="choice" value="Choice 1">
+    <label for="choice1">Choice 1</label><br>
+    
+    <input type="radio" id="choice2" name="choice" value="Choice 2">
+    <label for="choice2">Choice 2</label><br>
+    
+    <input type="radio" id="choice3" name="choice" value="Choice 3">
+    <label for="choice3">Choice 3</label><br><br>
+    
+    <input type="submit" value="Vote">
+  </form>
+</body>
+</html>

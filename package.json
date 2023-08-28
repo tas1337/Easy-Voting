@@ -1,0 +1,20 @@
+{
+  "name": "ggda-voting",
+  "version": "1.0.0",
+  "description": "GGDA VOTING",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Iliya Kovachki",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.9.0",
+    "helmet": "^7.0.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.6.0",
+    "validator": "^13.11.0"
+  }
+}

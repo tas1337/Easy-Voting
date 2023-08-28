@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS ggda_voting;
+
+USE ggda_voting;
+
+CREATE TABLE IF NOT EXISTS voting (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  ip VARCHAR(50),
+  vote VARCHAR(50),
+  name VARCHAR(50)
+);
